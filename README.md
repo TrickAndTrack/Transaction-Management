@@ -78,4 +78,13 @@ Commite-> All method Run successefully
 
 ![image](https://user-images.githubusercontent.com/73180409/228165499-7765ec87-c5e7-43fc-842f-fa79cc10a80c.png)
 
+# ACID
+ACID transactions can be achieved through the use of the Spring Framework's transaction management capabilities. 
 
+- Atomicity: In Spring, atomicity can be achieved through the use of the @Transactional annotation, which ensures that a transaction is executed as a single, atomic unit of work. If any part of the transaction fails, the entire transaction is rolled back, ensuring that the data remains in a consistent state.
+
+-Consistency: Consistency is achieved by ensuring that transactions enforce all the rules and constraints defined in the database schema. In Spring, consistency can be achieved through the use of validation annotations, such as @NotNull or @Size, which ensure that data is consistent with the database schema.
+
+-Isolation: Isolation refers to the degree to which one transaction is isolated from the other concurrent transactions. In Spring, isolation levels can be specified using the @Transactional annotation, which allows the developer to control the level of isolation required for a transaction.
+
+-Durability: Durability ensures that once a transaction is committed, the changes made to the database are permanent and will not be lost due to system failure or other issues. In Spring, durability can be achieved through the use of database-specific transaction managers, such as the DataSourceTransactionManager, which ensures that changes made to the database are durable.

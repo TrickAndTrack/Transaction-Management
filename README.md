@@ -70,3 +70,5 @@ In this example, we're using the @Transactional annotation to indicate that the 
 # Local vs. Global Transactions
 Local transactions are specific to a single transactional resource like a JDBC connection, whereas global transactions can span multiple transactional resources like transactions in a distributed system.
 
+
+

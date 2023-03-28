@@ -71,4 +71,8 @@ In this example, we're using the @Transactional annotation to indicate that the 
 Local transactions are specific to a single transactional resource like a JDBC connection, whereas global transactions can span multiple transactional resources like transactions in a distributed system.
 
 
+![rrrrr drawio](https://user-images.githubusercontent.com/73180409/228164411-f1bf3cd0-7b4a-46a5-8717-f152d919d89e.png)
+
+RolleBack-> Any method Throw Exception 
+Commite-> All method Run successefully
 

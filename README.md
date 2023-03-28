@@ -76,3 +76,6 @@ Local transactions are specific to a single transactional resource like a JDBC c
 RolleBack-> Any method Throw Exception 
 Commite-> All method Run successefully
 
+![image](https://user-images.githubusercontent.com/73180409/228165499-7765ec87-c5e7-43fc-842f-fa79cc10a80c.png)
+
+

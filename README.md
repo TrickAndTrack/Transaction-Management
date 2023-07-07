@@ -80,6 +80,7 @@ Commite-> All method Run successefully
 
 # ACID
 ACID transactions can be achieved through the use of the Spring Framework's transaction management capabilities. 
+A database transaction is a sequence of actions that are treated as a **single unit of work**. 
 
 - Atomicity: In Spring, atomicity can be achieved through the use of the @Transactional annotation,**which ensures that a transaction is executed as a single, atomic unit of work**. If any part of the transaction fails, the entire transaction is rolled back, ensuring that the data remains in a consistent state.
 
